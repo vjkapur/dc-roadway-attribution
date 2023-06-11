@@ -12,7 +12,7 @@ This project contains a script to compute the surface area of roadway artifacts 
 
 ## usage
 To run:
-1. download the `GeoJSON`?)-formatted files for the above datasets, and place them in a `data` folder in the repo.
+1. download the `GeoJSON`-formatted files for the above datasets, and place them in a `data` folder in the repo.
 2. either use the included conda environment (requires Anaconda or [miniconda](https://docs.conda.io/en/latest/miniconda.html)) to pull package dependencies through an environment:
 
    ```shell
