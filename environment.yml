@@ -1,0 +1,9 @@
+name: dc-roadway-attribution
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.9.13
+  - geopandas=0.9.0
