@@ -8,7 +8,7 @@ This project contains a script to compute the surface area of roadway artifacts 
 |---|---|---|
 |[Roadway Block](https://opendata.dc.gov/datasets/roadway-block)|Information about block by block roadway segments in DC|6/8/23|
 |[Bicycle Lanes](https://opendata.dc.gov/datasets/bicycle-lanes)|Information about various kinds of bike lanes in DC|6/1/23|
-|[Alleys and Parking](https://opendata.dc.gov/datasets/alleys-and-parking)|Information about alleyways and parking easements/lots in DC|6/8/23|
+<!--|[Alleys and Parking](https://opendata.dc.gov/datasets/alleys-and-parking)|Information about alleyways and parking easements/lots in DC|6/8/23|-->
 
 ## usage
 To run:
