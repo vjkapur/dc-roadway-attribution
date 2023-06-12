@@ -29,7 +29,7 @@ To run:
 3. run `compute.py`
 
    ```shell
-   python comput.py
+   python compute.py
    ```
    
    or, within a Python terminal:
