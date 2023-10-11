@@ -59,3 +59,9 @@ print('percent of roadway area comprised of bike lane area: %s%%'%calc)
 
 calc = data_eckert4[PBLS].area_feet.sum() / data_eckert4[ROADWAY_BLOCK].area_feet.sum()
 print('percent of roadway area comprised of protected bike lane area: %s%%'%calc)
+
+# ward-specific calculating
+for ward in range(1, 9):
+    print('Ward %i: total roadway block length (mi): %s'%(ward, data_eckert4['roadway_block'][data_eckert4['roadway_block'].WARD_ID == str(ward)].geolength.sum()))
+    print('Ward %i: total roadway block  area (sq mi): %s'%(ward, data_eckert4['roadway_block'][data_eckert4['roadway_block'].WARD_ID == str(ward)].area_miles.sum()))
+
